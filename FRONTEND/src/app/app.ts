@@ -20,7 +20,7 @@ export class App {
   // arrayDeTarefas : Tarefa[] = [];
 
   constructor(private http: HttpClient){
-    this.apiURL = 'http://apitarefas-production-1165.up.railway.app/api';
+    this.apiURL = 'http://apitarefas-production-1165.up.railway.app';
     this.READ_tarefas();
   }
 
